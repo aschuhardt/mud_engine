@@ -87,7 +87,6 @@ impl Engine {
     }
 
     pub fn perform_tick(&mut self) {
-        //process incoming requests
         //update game state
         thread::sleep(time::Duration::from_millis(self.delay_duration_ms));
         self.responses.clear();
