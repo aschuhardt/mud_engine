@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Addison Schuhardt <a@schuhardt.net>"]
 
 [dependencies]
-mud_request = { path = "https://github.com/aschuhardt/mud_request.git" }
-mud_response = { path = "https://github.com/aschuhardt/mud_response.git" }
+mud_request = { git = "https://github.com/aschuhardt/mud_request.git" }
+mud_response = { git = "https://github.com/aschuhardt/mud_response.git" }
 time = "0.1"
 uuid = { version = "0.2", features = ["rustc-serialize", "v4", "v5"] }
