@@ -1,0 +1,9 @@
+[package]
+name = "mud_engine"
+version = "0.1.0"
+authors = ["Addison Schuhardt <a@schuhardt.net>"]
+
+[dependencies]
+mud_request = { path = "../mud_request/" }
+mud_response = { path = "../mud_response/" }
+time = "0.1"
