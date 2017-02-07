@@ -7,3 +7,4 @@ authors = ["Addison Schuhardt <a@schuhardt.net>"]
 mud_request = { path = "../mud_request/" }
 mud_response = { path = "../mud_response/" }
 time = "0.1"
+uuid = { version = "0.2", features = ["rustc-serialize", "v4", "v5"] }
